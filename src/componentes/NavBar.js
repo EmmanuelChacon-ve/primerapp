@@ -1,11 +1,15 @@
-const  Header = () => {
+import Nav from "./Nav"
+import Imagen from "./CartWidget"
+const  Header = ({Nombre,Apellido}) => {
+    
     return(
         <header>
+           
             <h1>E-commerce</h1>
-            <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Contacto</a>  
-            </nav>
+            <p>Bienvenido {Nombre} {Apellido}</p>
+            <img src={"imagen.png"} />
+            <Nav/>
+        
         </header>
     )
 }

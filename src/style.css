@@ -1,3 +1,13 @@
 header{
     background-color: red;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+
+header p{
+  
+    margin-left: 20px;
+    margin-right: 20px;
 }

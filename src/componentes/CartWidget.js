@@ -1,8 +1,9 @@
 const CartWidget = () => {
     return (
         <div>
-            <img src="imagen.png" alt=""/>
-            <img src={"one.jpeg"} />
+            <span className="material-icons">
+shopping_cart
+</span>
             
         </div>
 

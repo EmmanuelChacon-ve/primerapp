@@ -7,7 +7,7 @@ const  Header = ({Nombre,Apellido}) => {
            
             <h1>E-commerce</h1>
             <p>Bienvenido {Nombre} {Apellido}</p>
-            <img src={"imagen.png"} />
+            <Imagen/>
             <Nav/>
         
         </header>

@@ -1,12 +1,12 @@
 import Nav from "./Nav"
 import Imagen from "./CartWidget"
-const  Header = ({Nombre,Apellido}) => {
+const  Header = ({nombre,apellido}) => {
     
     return(
         <header>
            
             <h1>E-commerce</h1>
-            <p>Bienvenido {Nombre} {Apellido}</p>
+            <p>Bienvenido {nombre} {apellido}</p>
             <Imagen/>
             <Nav/>
         

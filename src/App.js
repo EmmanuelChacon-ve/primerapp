@@ -1,6 +1,8 @@
 import Header  from  "./componentes/NavBar"
 import Footer from "./componentes/Footer"
 import Container from "./componentes/ItemlistContainer"
+import Item from "./componentes/Item"
+
 
 
 const App = () => {
@@ -8,8 +10,8 @@ const App = () => {
         <>
             <Header nombre="Emmanuel"
              apellido="Chacon"/>
-             <Container nombre="Emmanuel"
-             apellido="Chacon"/>
+             <Container/>
+             <Item/>
             <Footer/>
         </>
     )

@@ -5,9 +5,10 @@ const Container = ({nombre,apellido}) => {
         <div>
             <p>Hola soy el Container Bienvenido {nombre} {apellido}</p>
             <Botton/>
-            <ItemList/>
+            
         </div>
     )
 }
 
 export default Container
+

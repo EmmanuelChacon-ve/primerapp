@@ -13,6 +13,7 @@ const Botton = () => {
         setContador(contador + 1)
         
     }
+   
 
     const disminuircontador = () => {
 

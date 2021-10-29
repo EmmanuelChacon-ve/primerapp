@@ -1,16 +1,11 @@
+import ItemList from "./ItemList"
 const Item = () => {
-    
-    
-   const platos  = () => ["mondongo","hallaca"]
-    
-
- 
-     (
-        <div>
-            
-        </div>
-    )
-
+  return (
+    <div>
+      <ItemList/>
+    </div>
+  )
 }
 
 export default Item
+

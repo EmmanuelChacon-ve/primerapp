@@ -12,16 +12,14 @@ const Botton = ({initial,stock,onAdd}) => {
         console.log("Sea ha iniciado el contador")
     },[])
 
-    if(contador >= stock){
-        alert("no hay mas productos")
-        
-    }
+   
 
     
     const sumarcontador = () => {
 
         if(contador===stock){
-            setContador(contador)       
+            setContador(contador)  
+            alert("no hay mas productos")     
         }
         else{
             setContador(contador + 1)

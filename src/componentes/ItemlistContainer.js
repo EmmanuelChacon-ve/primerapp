@@ -1,5 +1,5 @@
 import Botton from "./ItemCount"
-import ItemList from "./ItemList"
+
 const Container = ({nombre,apellido,stock,initial}) => {
     return (
         <div>

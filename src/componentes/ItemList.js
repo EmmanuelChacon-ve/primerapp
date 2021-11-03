@@ -8,6 +8,7 @@ const ItemList = () => {
     })
     promesa.then(() => {console.log (array)})
     promesa.catch(() => {console.log ("La promesa ha llegado mal")})
+            
 
     return (
         <div>

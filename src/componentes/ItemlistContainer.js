@@ -1,14 +1,43 @@
-import Botton from "./ItemCount"
 
-const Container = ({nombre,apellido,stock,initial}) => {
-    return (
-        <div>
-            <p>Hola soy el Container Bienvenido {nombre} {apellido}</p>
-            <Botton stock={10} initial={1} onAdd={() => { alert("Gracias por tu compra")}}/>
-            
-        </div>
-    )
-}
+import { useState , useEffect} from "react"
+import ItemList from "./ItemList"
+import Item from "./Item"
+const Container = () => {
+
+
+    const [productos, setProductos] = useState([])
+        
+     const data = () =>{
+         console.log("hola")
+         fetch("../datos.json")
+        
+        .then((response)=>{
+            console.log(response)
+             return response.json()
+
+         })
+         
+         .then((mydata)=> {
+             
+             setProductos(mydata)
+         })        
+    }    
+
+    useEffect(() => {
+        setTimeout(()=>{
+            data()
+        }, 3000)
+        
+    }, [])
+    
+return(
+    
+        <ItemList productos={productos}/>
+
+)
+
+    }
+
 
 export default Container
 

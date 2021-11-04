@@ -1,7 +1,10 @@
 import Header  from  "./componentes/NavBar"
 import Footer from "./componentes/Footer"
-import Container from "./componentes/ItemlistContainer"
+import ItemList from "./componentes/ItemList"
 import Item from "./componentes/Item"
+import Container from "./componentes/ItemlistContainer"
+
+
 
 
 
@@ -13,8 +16,8 @@ const App = () => {
             <Header nombre="Emmanuel"
              apellido="Chacon"/>
              <Container/>
-             <Item/>
             <Footer/>
+            
             
         </>
     )

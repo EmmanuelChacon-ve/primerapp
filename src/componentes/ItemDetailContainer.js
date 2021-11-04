@@ -2,14 +2,34 @@ import React from 'react'
 
 const ItemDetailContainer = () => {
 
-    const resultado = fetch("https://pokeapi.co/api/v2/pokemon/ditto")
-    console.log(resultado)
-    resultado.then(() => {console.log ("todo bien")})
+    const [productos, setProductos] = useState([])
         
+    const data = () =>{
+        console.log("hola")
+        fetch("../datos.json")
+       
+       .then((response)=>{
+           console.log(response)
+            return response.json()
+
+        })
+        
+        .then((mydata)=> {
+            
+            setProductos(mydata)
+        })        
+   }    
+
+   useEffect(() => {
+       setTimeout(()=>{
+           data()
+       }, 3000)
+       
+   }, [])
     
     return (
         <div>
-            
+            <ItemList productos={productos}/>
         </div>
     )
  

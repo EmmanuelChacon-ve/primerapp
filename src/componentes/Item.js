@@ -1,9 +1,16 @@
 import ItemList from "./ItemList"
-const Item = () => {
-  return (
-    <div>
-      <ItemList/>
-    </div>
+import ItemCount from "./ItemCount"
+
+const Item = ({prod = []}) => {
+    return (
+
+        <div key={prod.id} className="borde">                            
+        <p key={prod.name}>{prod.name}</p>
+        <p key={prod.precio}>{prod.precio}</p>
+        <ItemCount stock={10} initial={1} onAdd={() => { alert("Gracias por tu compra")}}/>
+        <img key={prod.url} alt="img" src={prod.url}/>
+        </div>
+                                
   )
 }
 

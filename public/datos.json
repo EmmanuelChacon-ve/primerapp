@@ -1,0 +1,33 @@
+
+[{
+    "id": "Plato 1",
+    "name": "Mondongo)",
+    "precio": "Su precio es de 30",
+    "url": "/4.jpg",
+    "description": "Es un plato tipico en la cual se trata de una sopa con callo y verdura y arbejas y un plato adicional de arepitas"
+    
+  }, {
+    "id": "Plato 2",
+    "name": "Pabellon",
+    "precio": "Su precio es de 35",
+    "url": "/4.jpg",
+    "description": "Es un plato tipico con arroz, carne mechada, caraotas, huevo y queso"
+  }, {
+    "id": "Plato 3",
+    "name": "Parrilla",
+    "precio": "Su precio es de 40",
+    "url": "/4.jpg",
+    "description": "Es una plato tipico con trozos de carne, pollo y cochino frito, con ensalada y arroz adicional"
+  }, {
+    "id": "Plato 4",
+    "name": "Caldo de Papas",
+    "precio": "Su precio es de 15",
+    "url": "/4.jpg",
+    "description": "Se trata de un caldo en la cual lleva leche huevo cosido y papas dentro del platillo"
+  }, {
+    "id": "Plato 5",
+    "name": "Empanadas",
+    "precio": "Su precio es de 5",
+    "url": "/4.jpg",
+    "description": "Las emparadas es masa de mays con variante relleno como puede ser de queso jamon y queso , arroz con carne , carne machada y pollo"
+  }]

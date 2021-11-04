@@ -1,0 +1,22 @@
+[{
+    "id": "Plato 1",
+    "name": "Mondongo)",
+    "precio": "30"
+    
+  }, {
+    "id": "Plato 2",
+    "name": "Pabellon",
+    "precio": "35"
+  }, {
+    "id": "Plato 3",
+    "name": "Parrilla",
+    "precio": "40"
+  }, {
+    "id": "Plato 4",
+    "name": "Caldo de Papas",
+    "precio": "15"
+  }, {
+    "id": "Plato 5",
+    "name": "Empanadas",
+    "precio": "5"
+  }]

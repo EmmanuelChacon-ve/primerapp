@@ -2,7 +2,7 @@ import Container from "./ItemlistContainer"
 import ItemCount from "./ItemCount"
 import Item from "./Item"
  
-const ItemList = ({productos = []}) => {
+const ItemList = ({productos}) => {
    
   
       

@@ -1,7 +1,7 @@
 import ItemList from "./ItemList"
 import ItemCount from "./ItemCount"
 
-const Item = ({prod = []}) => {
+const Item = ({prod}) => {
     return (
 
         <div key={prod.id} className="borde">                            

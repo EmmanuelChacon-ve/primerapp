@@ -18,7 +18,7 @@ const SiteNav = () => {
                     <img src="/favicon.ico.jpg" height="35" alt="" />
                 </NavLink>
                 <Navbar.Brand>
-                    <span id="colorBie">Gochilandia</span>
+                    <span id="titulo__logo">Gochilandia</span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="ml-auto">

@@ -12,7 +12,7 @@ const ItemFilter = () => {
             <Dropdown.Menu>
                 <Dropdown.Item as={NavLink} to="/cat/suplementos">Almuerzos</Dropdown.Item>
                 <Dropdown.Item as={NavLink} to="/cat/controlpeso">Desayunos</Dropdown.Item>
-                <Dropdown.Item as={Link} to="/">Quitar filtro</Dropdown.Item>
+                
             </Dropdown.Menu>
         </Dropdown>
     )

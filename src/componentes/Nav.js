@@ -3,7 +3,7 @@ const Nav = () => {
         <div>
             <nav>
                 <a href="#">Inicio</a>
-                <a href="#">Contacto</a>  
+                <a href="#">Productos</a>  
             </nav>
         </div>
     )

@@ -1,8 +1,10 @@
 import React from 'react'
+import ItemDetail from './ItemDetail'
+import { useState , useEffect} from "react"
 
 const ItemDetailContainer = () => {
 
-    const [productos, setProductos] = useState([])
+    const [descripcion, setDescipcion] = useState([])
         
     const data = () =>{
         console.log("hola")
@@ -16,7 +18,7 @@ const ItemDetailContainer = () => {
         
         .then((mydata)=> {
             
-            setProductos(mydata)
+            setDescipcion(mydata)
         })        
    }    
 
@@ -29,7 +31,7 @@ const ItemDetailContainer = () => {
     
     return (
         <div>
-            <ItemList productos={productos}/>
+            <ItemDetail descripcion={descripcion}/>
         </div>
     )
  

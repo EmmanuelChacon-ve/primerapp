@@ -1,8 +1,8 @@
 import React from "react"
+import ReactDOM from "react-dom"
+import App from "./app"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import "./estilos.css"
 
-import  ReactDOM  from "react-dom"
+ReactDOM.render( <App/>, document.getElementById("root") )
 
-import App from "./App"
-
-import "./style.css"
-ReactDOM.render( <App/>, document.getElementById("root"))

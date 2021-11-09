@@ -1,16 +1,15 @@
 import React from 'react'
 
-const ItemDetail = ({productos = []}) => {
+const ItemDetail = ({descripcion}) => {
 
-   
 
     return (
         <div>
-            {productos.length === 0 ? <p>Cargando description</p> : productos.map((prod) => {
+            {descripcion.length === 0 ? <p>Cargando description</p> : descripcion.map((prod) => {
                 return(
-                    <div>
-                        <p key={prod.id}></p>
-                        <p key={prod.description}></p>
+                    <div key={prod.id}>
+                       
+                        <p key={prod.description}>{prod.description}</p>
                     </div>
                 )
             })}

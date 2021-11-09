@@ -1,14 +1,14 @@
 
 import { useState , useEffect} from "react"
 import ItemList from "./ItemList"
-import Item from "./Item"
+
 const Container = () => {
 
 
     const [productos, setProductos] = useState([])
         
      const data = () =>{
-         console.log("hola")
+         
          fetch("../datos.json")
         
         .then((response)=>{

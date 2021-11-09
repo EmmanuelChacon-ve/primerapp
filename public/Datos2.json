@@ -1,0 +1,4 @@
+[
+    {"id":4,"title":"Empanada","description":"Empanada de maíz frita con carne mechada de relleno","category":"Desayuno","price":10,"pictureURL":"/products/product4.jpg"},
+    {"id":5,"title":"Chachapa","description":"Cachapa con queso mozzarella y carne mechada","category":"Desayuno","price":15,"pictureURL":"/products/product5.jpg"},
+    {"id":6,"title":"Arepa","description":"Arepa de maíz rellana de Jamón y Queso","category":"Desayuno","price":12,"pictureURL":"/products/product6.jpg"}]

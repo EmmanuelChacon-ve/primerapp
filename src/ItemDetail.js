@@ -26,7 +26,7 @@ const ItemDetail = ({ detalles }) => {
 
         return (
             <div className="cargaProductos text-center">
-                <Spinner animation="border" variant="warning" />
+                <Spinner animation="border" variant="info" />
                 <p className="fs-4 text text-muted cargaTexto"> Cargando detalle </p>
                 <img src="/favicon.ico" alt="" />
             </div>
@@ -41,8 +41,8 @@ const ItemDetail = ({ detalles }) => {
                     {detalles.map((det) => {
                         return (
                             <Col key={det.id} className="contenedorProdInv text-center col-md-12">
-                                <p className="fs-4 text-primary">{det.title}</p>
-                                <p className="lead text-secondary">{det.category}</p>
+                                <p className="fs-4 text-danger">{det.title}</p>
+                                <p className="lead text-info">{det.category}</p>
                                 <img alt='img' src={ det.pictureURL }/>
                                 <p className="text-secondary detalleProd">{ det.description}</p>
                                 <p className="lead text-secondary">Precio: $<span>{ det.price }</span></p>

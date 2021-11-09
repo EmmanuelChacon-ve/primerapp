@@ -4,9 +4,9 @@ function Links() {
     return (
         <>
             <Link className="nav-link" to="/">Inicio</Link>
-            <Link className="nav-link" to="#">Nosotros</Link>
-            <Link className="nav-link" to="#">Productos</Link>
-            <Link className="nav-link" to="#">Contacto</Link>
+            <Link className="nav-link" to="/cat/almuerzos">Almuerzos</Link>
+            <Link className="nav-link" to="/cat/desayunos">Desayuno</Link>
+        
         </>
     )
 }

@@ -1,7 +1,7 @@
 import {useEffect,useState} from "react"
 import { useParams } from "react-router"
 import ItemList from "./ItemList"
-import ItemFilter from "./ItemFilter"
+
 
 
 const ItemListContainer = () => {
@@ -14,7 +14,7 @@ const ItemListContainer = () => {
 
         setTimeout(() => {
 
-            if (cat === "suplementos") {
+            if (cat === "almuerzos") {
 
                 fetch("../Datos.json")
 
@@ -30,7 +30,7 @@ const ItemListContainer = () => {
 
                     })
 
-            } else if (cat === "controlpeso") {
+            } else if (cat === "desayunos") {
 
                 fetch("../Datos2.json")
 
@@ -67,7 +67,8 @@ const ItemListContainer = () => {
 
     return (
             <>
-            <ItemFilter />
+
+   
             <ItemList productos = {productos} />
             </>
     )

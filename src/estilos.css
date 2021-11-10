@@ -10,10 +10,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Nav */
+
 
 .navbar-brand {
-    color: #bb1c1c !important;
+    color: #bb1c1c ;
     font-size: 1.25rem;
     font-weight: bold;
 }
@@ -32,13 +32,13 @@ a.nav-link {
     color: #4d02fc !important;
 }
 
-/* CartWidget */
+
 
 .carritoIcon {
     color: #5313bb;
 }
 
-/* Item */
+
 
 .imgList {
     margin-bottom: 2rem;
@@ -49,7 +49,7 @@ a.nav-link {
     justify-content: center;
 }
 
-/* ItemCount */
+
 
 .controlCantidad {
     display: flex;
@@ -70,7 +70,7 @@ a.nav-link {
     margin: 0.5rem;
 }
 
-/* ItemDetail - ItemList */
+
 
 .cargaProductos {
     margin-top: 12rem;
@@ -110,13 +110,6 @@ a.nav-link {
     margin-top: 1rem;
 }
 
-/* ItemFilter */
-
-.itemFilter {
-    margin-top: 1.5rem;
-}
-
-/* Footer */
 
 footer {
     padding-top: 2rem;

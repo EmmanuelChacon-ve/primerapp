@@ -23,7 +23,7 @@ export const CustomProvider = ({ children }) => {
         setCart([])
     }
 
-    const valor_del_contexto = {
+    const valor = {
 
         cart : cart,
         addToCart : addToCart,
@@ -33,7 +33,7 @@ export const CustomProvider = ({ children }) => {
     }
 
     return  (
-        <Provider value={ valor_del_contexto }>
+        <Provider value={ valor }>
             { children }
         </Provider>
     )

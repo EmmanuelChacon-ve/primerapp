@@ -13,12 +13,6 @@ const ItemDetail = ({ detalles }) => {
 
     const onAdd = (contador) => {
         detalles[0].quantity = contador
-        // Swal.fire({
-        //     title: 'Producto agregado!',
-        //     text: `Agregaste ${detalles[0].description}. Cantidad: ${contador}`,
-        //     icon: 'success',
-        //     confirmButtonText: "Aceptar"
-        // })
         addToCart(detalles)
     }
     

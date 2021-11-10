@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-
 function Links() {
     return (
         <>
@@ -10,5 +9,4 @@ function Links() {
         </>
     )
 }
-
 export default Links

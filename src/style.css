@@ -12,18 +12,15 @@ body {
 
 
 
-.navbar-brand {
-    color: #bb1c1c ;
-    font-size: 1.25rem;
-    font-weight: bold;
-}
+
 
 #titulo__logo {
     color: #1c3ed6;
 }
 
 a.nav-link {
-    font-size: 1.25rem;
+    font-size: 2rem;
+    margin-right: 20px;
     color: #381291 !important;
 }
 
@@ -112,6 +109,8 @@ a.nav-link {
 
 
 footer {
+    font-weight: 600;
+    font-size: 2rem;
     padding-top: 2rem;
 }
 

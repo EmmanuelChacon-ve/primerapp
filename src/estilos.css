@@ -12,16 +12,19 @@ body {
 
 
 
+.navbar-brand {
+    color: #1c3ed6 !important;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
 
-
-#titulo__logo {
-    color: #1c3ed6;
+#titulo {
+    color: #1f3699;
 }
 
 a.nav-link {
-    font-size: 2rem;
-    margin-right: 20px;
-    color: #381291 !important;
+    font-size: 1.25rem;
+    color: #223586 !important;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -33,6 +36,13 @@ a.nav-link {
 
 .carritoIcon {
     color: #5313bb;
+    font-size: 36px;
+}
+
+.badgeCart {
+    padding: 3px;
+    margin-left: -10px;
+    margin-bottom: 30px;
 }
 
 
@@ -68,7 +78,6 @@ a.nav-link {
 }
 
 
-
 .cargaProductos {
     margin-top: 12rem;
     margin-bottom: 12rem;
@@ -95,7 +104,7 @@ a.nav-link {
 }
 
 .swal2-confirm {
-    background-color: orange !important;
+    background-color: rgb(32, 10, 228) !important;
 }
 
 .swal2-modal .swal2-styled:focus {
@@ -108,12 +117,24 @@ a.nav-link {
 }
 
 
+
+.itemFilter {
+    margin-top: 1.5rem;
+}
+
+
+
 footer {
-    font-weight: 600;
-    font-size: 2rem;
     padding-top: 2rem;
+}
+footer  .nav-link{
+    font-size: 1.25rem;
+    color: #2d3c80 !important;
+}
+footer  .nav-link:hover{
+    color: #4d02fc !important;
 }
 
 .imgList{
-    width: 60%;
+    width: 50%;
 }

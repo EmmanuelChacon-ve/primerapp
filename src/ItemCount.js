@@ -9,7 +9,7 @@ const ItemCount = ( { initial, stock, prodID, onAdd } ) => {
     const buttonAdd = document.getElementById('sumaCant')
     const buttonRemove = document.getElementById('restaCant')
 
-    const sc = () => {
+    const sumarCantidad = () => {
 
         if (stock === contador) {
 
@@ -22,7 +22,7 @@ const ItemCount = ( { initial, stock, prodID, onAdd } ) => {
         }
     }
 
-    const rc = () => {
+    const restarCantidad = () => {
 
         if (contador === 1) {
 
@@ -35,7 +35,7 @@ const ItemCount = ( { initial, stock, prodID, onAdd } ) => {
         }
     }
 
-    const agregar = () => { 
+    const agregarItem = () => { 
 
         onAdd(contador)
         setCambiarBoton(true)    
@@ -49,17 +49,15 @@ const ItemCount = ( { initial, stock, prodID, onAdd } ) => {
         <>
             <div className="controlCantidad">
                 <Button variant="outline-info" id="restaCant" className="buttonCant material-icons"
-                    onClick={rc}>remove</Button>
+                    onClick={restarCantidad}>remove</Button>
                 {<p id={`prod${prodID}`} className="cantProd rounded border border-info">{contador}</p>}
                 <Button variant="outline-info" id="sumaCant" className="buttonCant material-icons"
-                    onClick={sc}>add</Button>
+                    onClick={sumarCantidad}>add</Button>
             </div>
-            <div onClick={ agregar } className="agregarCarrito">
+            <div onClick={ agregarItem } className="agregarCarrito">
                 <Button variant="info">Agregar al carrito</Button>
             </div>
-            <Link to="/">
-                <Button className="botonVolver material-icons" variant="info">keyboard_return</Button>
-            </Link>
+          
         </>
         :
         <>
@@ -68,7 +66,7 @@ const ItemCount = ( { initial, stock, prodID, onAdd } ) => {
                     <Button variant="info">Ir al carrito</Button>
                 </Link>
                 <Link to="/">
-                    <Button variant="info">Continuar comprando</Button>
+                    <Button variant="primary">Continuar comprando</Button>
                 </Link>
             </div>
         </>}

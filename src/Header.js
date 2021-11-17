@@ -1,6 +1,5 @@
 import SiteNav from "./SiteNav"
 
-
 const Header = () => {
 
     return(

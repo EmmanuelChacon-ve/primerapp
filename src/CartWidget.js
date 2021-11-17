@@ -1,19 +1,30 @@
 import { useContext } from 'react'
 import { contexto } from './cartContext'
+import {NavLink} from 'react-router-dom'
+import Badge from 'react-bootstrap/Badge'
 
 const CartWidget = () => {
-
-
-    const { cart } = useContext(contexto)
-    
-    console.log(cart) 
-
-    
+  
+    const {sumQuantity} = useContext(contexto)
+ 
     return (
-        <span className="material-icons carritoIcon">
-            shopping_cart
-        </span>
+        <>
+            <NavLink to="/cart" exact>
+                <span className="material-icons carritoIcon">
+                    shopping_cart
+                </span>
+            </NavLink>
+            {sumQuantity() === 0 ? null :
+                <Badge className="badgeCart" bg="danger">
+                    {sumQuantity()}
+                </Badge>
+            }
+        </>
+        
     )
 }
 
 export default CartWidget
+
+
+

@@ -7,13 +7,16 @@ import CartWidget from './CartWidget'
 
 
 const SiteNav = () => {
+
     return (
         <Navbar id="test" collapseOnSelect expand="lg" bg="light" variant="light">
             <Container>
                 <NavLink to="/" exact>
-                    <img src="/favicon.ico.jpg" width="200" height="200" alt="" />
+                    <img src="/favicon.ico.jpg" height="35" alt="" />
                 </NavLink>
-
+                <Navbar.Brand>
+                    <span id="titulo">Gochilandia</span>
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="ml-auto">
                     <Nav className="justify-content-end" style={{ width: "100%" }}>

@@ -1,15 +1,12 @@
-import Spinner from 'react-bootstrap/Spinner'
 import Container from 'react-bootstrap/Container'
+import Spinner from 'react-bootstrap/Spinner'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Item from "./Item"
 
-
-
 const ItemList = ({ productos }) => {
-                       
 
-      if (productos.length === 0) {
+    if (productos.length === 0) {
 
         return (
             <div className="cargaProductos text-center">
@@ -20,7 +17,6 @@ const ItemList = ({ productos }) => {
         )
 
       } else {
-
             return (
                 <Container fluid className="contenedorProd">
                     <Row>
@@ -39,7 +35,8 @@ const ItemList = ({ productos }) => {
                     </Row>
                 </Container>
             )
-      }    
+  
+}
 }
 
 export default ItemList

@@ -1,20 +1,41 @@
-import {useEffect,useState} from "react"
+import { useEffect, useState } from "react"
 import { useParams } from "react-router"
+import { firestore } from "./firebase"
 import ItemList from "./ItemList"
-
 
 
 const ItemListContainer = () => {
 
-    const {cat} = useParams()
+    const {categoria} = useParams()
 
     const [productos, setProductos] = useState([])
 
     useEffect(() => {
 
-        setTimeout(() => {
-
-            if (cat === "almuerzos") {
+        // if (categoria){
+        //     const db = firestore
+            
+        //      db.collection("categoria").get()
+        //         .then(res => {
+        //             setProductos(res.docs.map(producto => ({
+        //                 id: producto.id,
+        //                 ...producto.data(categoria)
+        //             })))
+        //         })
+        //         .catch(err => console.log(err))
+        // }
+        //  else if (categoria){
+        //     const db = firestore
+        //      db.collection("desayuno").get()
+        //     .then(res => {
+        //         setProductos(res.docs.map(producto => ({
+        //             id: producto.id,
+        //             ...producto.data()
+        //         })))
+        //     })
+        //     .catch(err => console.log(err))
+        // }
+            if (categoria === "almuerzos") {
 
                 fetch("../Datos.json")
 
@@ -30,7 +51,7 @@ const ItemListContainer = () => {
 
                     })
 
-            } else if (cat === "desayunos") {
+            } else if (categoria === "desayunos") {
 
                 fetch("../Datos2.json")
 
@@ -45,31 +66,25 @@ const ItemListContainer = () => {
                         setProductos(myJson)
 
                     })
-            } else
-
-                fetch("../Datos3.json")
-
-                .then(function (response) {
-
-                    return response.json()
-
+      
+         }
+         else {
+            const db = firestore
+            db.collection("productos").get()
+                .then(res => {
+                    setProductos(res.docs.map(producto => ({
+                        id: producto.id,
+                        ...producto.data()
+                    })))
                 })
-
-                .then(function (myJson) {
-
-                    setProductos(myJson)
-
-                })
-
-        }, 2000)
-
-    }, [cat])
+                .catch(err => console.log(err))
+        }
+    }, [categoria])
 
     return (
             <>
-
-   
-            <ItemList productos = {productos} />
+               
+                <ItemList productos = {productos} />
             </>
     )
 

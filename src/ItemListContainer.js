@@ -11,7 +11,18 @@ const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
 
     useEffect(() => {
+        if (categoria) {
 
+            const db = firestore
+            db.collection("productos").where("category", "==", categoria).get()
+                .then(res => {
+                    setProductos(res.docs.map(producto => ({
+                        id: producto.id,
+                        ...producto.data()
+                    })))
+                })
+                .catch(err => console.log(err))
+            }
         // if (categoria){
         //     const db = firestore
             
@@ -35,39 +46,39 @@ const ItemListContainer = () => {
         //     })
         //     .catch(err => console.log(err))
         // }
-            if (categoria === "almuerzos") {
+        //     if (categoria === "almuerzos") {
 
-                fetch("../Datos.json")
+        //         fetch("../Datos.json")
 
-                    .then(function (response) {
+        //             .then(function (response) {
 
-                        return response.json()
+        //                 return response.json()
 
-                    })
+        //             })
 
-                    .then(function (myJson) {
+        //             .then(function (myJson) {
 
-                        setProductos(myJson)
+        //                 setProductos(myJson)
 
-                    })
+        //             })
 
-            } else if (categoria === "desayunos") {
+        //     } else if (categoria === "desayunos") {
 
-                fetch("../Datos2.json")
+        //         fetch("../Datos2.json")
 
-                    .then(function (response) {
+        //             .then(function (response) {
 
-                        return response.json()
+        //                 return response.json()
 
-                    })
+        //             })
 
-                    .then(function (myJson) {
+        //             .then(function (myJson) {
 
-                        setProductos(myJson)
+        //                 setProductos(myJson)
 
-                    })
+        //             })
       
-         }
+        //  }
          else {
             const db = firestore
             db.collection("productos").get()

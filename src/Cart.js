@@ -1,5 +1,6 @@
 import { useContext } from 'react'
 import { contexto } from './cartContext'
+import FormCart from "./FormCart"
 import { Button, Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
@@ -33,15 +34,16 @@ const Cart = () => {
                 <p>La cantidad total de productos en tu carrito es: {sumQuantity()}</p>
                 <p>El total de tu compra es $ {sumTotal().toFixed(2)}</p>
                 <Button variant="danger" onClick={clearCart}>
-                Vaciar Carrito
+                    Vaciar Carrito
                 </Button>
             </div>
+            <FormCart cart={cart} sumTotal={sumTotal()} clearCart={clearCart}/>
         </>
         : 
             <div className="text-center fs-5">
                 <p>No hay productos en el carrito</p>
                 <Link to="/">
-                    <Button variant="info">Vamos a comprar!</Button>
+                    <Button variant="success">Vamos a comprar!</Button>
                 </Link>
             </div>
         }

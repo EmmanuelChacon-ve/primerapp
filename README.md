@@ -16,7 +16,7 @@
 
 # Introducción:
 
-El presente proyecto ha sido realizado durante el curso de React JS de Coder House (Camada 16975). Gochilandi es un E-comerce que se dedica a la venta de comida tipica venezolano del estado tachirense
+El presente proyecto ha sido realizado durante el curso de React JS de Coder House (Camada 16975). Gochilandia es un E-comerce que se dedica a la venta de comida tipica venezolano del estado tachirense
 
 # Implementación:
 

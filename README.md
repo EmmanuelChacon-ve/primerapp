@@ -1,4 +1,52 @@
-# Getting Started with Create React App
+# Gochilandia 
+
+**Proyecto:** Ecommerce.
+
+**Curso:** React JS.
+
+**Institución:** Coder House.
+
+**Año:** 2021.
+
+**Creador:** Emmanuel Chacon. 
+
+**Contacto:** 
+
+
+# Introducción:
+
+El presente proyecto ha sido realizado durante el curso de React JS de Coder House (Camada 16975). Gochilandi es un E-comerce que se dedica a la venta de comida tipica venezolano del estado tachirense
+
+# Implementación:
+
+El sitio fue creado con React JS, para su implementación se utilizaron los siguientes paquetes:
+
+- [Create-React-App](https://create-react-app.dev/docs/getting-started)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+- [SweetAlert2](https://sweetalert2.github.io/)
+- [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)
+- [Firebase](https://firebase.google.com/)
+
+# En caso de querer replicar el proyecto debes seguir estos pasos desde tu git bash
+
+    Crea tu Carpeta y te cituas en tu tarjeta con:
+
+    cd nombre de la carpeta
+
+    git clone https://github.com/EmmanuelChacon-ve/primerapp.git
+
+    cd primerapp
+
+    npm install
+
+    npm start
+
+
+
+<p align="center"><img src="https://giphy.com/gifs/VKgJUDgJfBIrT3Kyqv" alt="Formulario compra SaBie"/></p>
+        
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +115,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->

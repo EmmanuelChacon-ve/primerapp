@@ -1,9 +1,6 @@
 import { createContext, useState } from "react"
-
 export const contexto = createContext()
-
 export const { Provider } = contexto
-
 export const CustomProvider = ({ children }) => {
 
     const [cart, setCart] = useState([])

@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { contexto } from './cartContext'
+import { contexto } from '../../Context/cartContext'
 import FormCart from "./FormCart"
 import { Button, Container, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
@@ -43,7 +43,7 @@ const Cart = () => {
             <div className="text-center fs-5">
                 <p>No hay productos en el carrito</p>
                 <Link to="/">
-                    <Button variant="success">Vamos a comprar!</Button>
+                    <Button variant="success" id="bug">Vamos a comprar!</Button>
                 </Link>
             </div>
         }

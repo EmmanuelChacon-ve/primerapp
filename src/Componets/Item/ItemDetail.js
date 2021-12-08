@@ -3,9 +3,9 @@ import Spinner from 'react-bootstrap/Spinner'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Swal from 'sweetalert2'
-import ItemCount from './ItemCount'
+import ItemCount from '../Count/ItemCount'
 import { useContext } from 'react'
-import { contexto } from './cartContext'
+import { contexto } from '../../Context/cartContext'
 
 const ItemDetail = ({ detalles }) => {
 
@@ -45,7 +45,7 @@ const ItemDetail = ({ detalles }) => {
                             <Col key={det.id} className="contenedorProdInv text-center col-md-12">
                                 <p className="fs-4 text-primary">{det.title}</p>
                                 <p className="lead text-secondary">{det.category}</p>
-                                <img alt='img' src={ det.pictureURL }/>
+                                <img alt='img' id="imgdescription"src={ det.pictureURL }/>
                                 <p className="text-secondary detalleProd">{ det.description}</p>
                                 <p className="lead text-info">Precio: <span>{ det.price }$</span></p>
                                 <ItemCount 

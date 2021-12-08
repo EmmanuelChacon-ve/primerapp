@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { contexto } from './cartContext'
+import { contexto } from '../../Context/cartContext'
 import {NavLink} from 'react-router-dom'
 import Badge from 'react-bootstrap/Badge'
 

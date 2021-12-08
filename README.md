@@ -43,7 +43,7 @@ El sitio fue creado con React JS, para su implementación se utilizaron los sigu
 
 
 
-<p align="center"><img src="https://giphy.com/gifs/VKgJUDgJfBIrT3Kyqv" alt="Formulario compra SaBie"/></p>
+<p align="center"><img src="https://giphy.com/gifs/VKgJUDgJfBIrT3Kyqv" alt="Imagen"/></p>
         
 
 <!-- # Getting Started with Create React App

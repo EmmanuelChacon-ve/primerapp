@@ -37,7 +37,7 @@ const FormCart = ({ clearCart, sumTotal, cart }) => {
                 html: `<p>${formData.name}:</p>
                        <p>Enviamos un e-mail a la casilla: <b>${formData.email1}</b> con los pasos para realizar el pago.</p>
                        <p>Tu pedido ha sido registrado con el ID: <b>${res.id}</b>.</p>
-                       <p>Gracias por confiar en SaBie!</p>`,
+                       <p>Gracias por tu compra!</p>`,
                 icon: 'success',
                 confirmButtonText: "Aceptar"
 

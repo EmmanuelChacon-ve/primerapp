@@ -1,6 +1,6 @@
 # Gochilandia 
 
-**Proyecto:** Ecommerce.
+**Proyecto:** E-commerce.
 
 **Curso:** React JS.
 
@@ -12,6 +12,7 @@
 
 **Contacto:** 
 
+ emmanuelechra@gmail.com
 
 # Introducción:
 
@@ -41,78 +42,29 @@ El sitio fue creado con React JS, para su implementación se utilizaron los sigu
 
     npm start
 
+# Función de Navegación:
 
+Empezamos entrando a la pagina y podremos observar un header en la cual muestra cada una de nuestras clases de comida que tenemos en el menu del restaurant y un enlace en la cual puedes ir al inicio en donde te sale tantos los desayunos como los almuerzos. En la parte principal tenemos a los item en una especie de cards con un boton en donde nos llevara a la secciion de detalle del producto que querramos comprar
 
 <p align="center"><img src="https://media.giphy.com/media/VKgJUDgJfBIrT3Kyqv/giphy.gif" alt="Imagen"/></p>
         
 
-<!-- # Getting Started with Create React App
+Luego al precionar el boton "Detalle del Plato" nos dirigimos a una parte de la pagina en la cual podremos observar el precio, la descripcion de las cosas que lleva cada plato y seleccionar la cantida de platos que quieras comprar 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"><img src="https://media.giphy.com/media/0vvksEoBkjTuR3CMc5/giphy.gif" alt="Imagen"/></p>
 
-## Available Scripts
+Luego de ya estar conformes con lo que hayas elegido o para saber cuanto es el total de tu compra podermos darle al icono del Carrito de Compras que nos dirigirá a otra parte de la pagina en la cual tendremos la informacion del precio total y el formulario de pago.
 
-In the project directory, you can run:
+<p align="center"><img src="https://media.giphy.com/media/gZfY8Al9XINjOEKwNo/giphy.gif" alt="Imagen"/></p>
 
-### `npm start`
+En caso de que queramos borrar un item tendremos varias opciones el de borrar un item solamente y el vaciar carrito que cosnta enque todos los platos que hayamos mandado al carrito se eliminen de nuestro carrito y comiences a comprar desde 0 nuevamente.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p align="center"><img src="https://media.giphy.com/media/twNQKPPvFpnQplWfQd/giphy.gif" alt="Imagen"/></p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Luego tendriamos que completar el formulario para poder proceder con la compra
 
-### `npm test`
+<p align="center"><img src="https://media.giphy.com/media/UmNpqSQ9St9knWVTEx/giphy.gif" alt="Imagen"/></p>
+      
+<p align="center"> Cualquier comentario es bienvenido.</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->

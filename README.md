@@ -64,7 +64,7 @@ Cabe aclarar que si desemos desincorporar uno o mas productos seleccionados, pod
 
 Para finalizar la transacción deberás completar el formulario con los datos solicitados de manera correcta o de lo contrario te saldrá un aviso.
 
-Al llenar todo los campos de manera correcta podras darle click al botón finalizar compra, la cual generará una alerta con la confirmacion del pedido.
+Al llenar todo los campos de manera correcta podras darle click al botón finalizar compra, la cual generará una alerta con la confirmacion del pedido y de una compra sastifactoria.
 
 <p align="center"><img src="https://media.giphy.com/media/UmNpqSQ9St9knWVTEx/giphy.gif" alt="Imagen"/></p>
   

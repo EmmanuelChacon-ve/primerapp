@@ -16,7 +16,7 @@
 
 # Introducción:
 
-El presente proyecto ha sido realizado durante el curso de React JS de Coder House (Camada 16975). Gochilandia es un E-comerce que se dedica a la venta de comida tipica venezolano del estado tachirense
+El presente proyecto ha sido realizado durante el curso de React JS de Coder House (Camada 16975). Gochilandia es un E-comerce que se dedica a la venta de comida tipica  de los andes venezolanos
 
 # Implementación:
 
@@ -44,27 +44,30 @@ El sitio fue creado con React JS, para su implementación se utilizaron los sigu
 
 # Función de Navegación:
 
-Empezamos entrando a la pagina y podremos observar un header en la cual muestra cada una de nuestras clases de comida que tenemos en el menu del restaurant y un enlace en la cual puedes ir al inicio en donde te sale tantos los desayunos como los almuerzos. En la parte principal tenemos a los item en una especie de cards con un boton en donde nos llevara a la secciion de detalle del producto que querramos comprar
+Al inicio de la  página se puede apreciar que el header contiene el menú de los diferentes platos del establecimiento comercial. Además contiene unos enlaces en la cual podrás ir al inicio o a las categorias del menú. 
+
+En la parte principal tenemos los productos desplegados en forma de cards, con un botón que nos llevará al detalle de la orden.
 
 <p align="center"><img src="https://media.giphy.com/media/VKgJUDgJfBIrT3Kyqv/giphy.gif" alt="Imagen"/></p>
         
-
-Luego al precionar el boton "Detalle del Plato" nos dirigimos a una parte de la pagina en la cual podremos observar el precio, la descripcion de las cosas que lleva cada plato y seleccionar la cantida de platos que quieras comprar 
+Luego de dar click al botón "Detalle del plato" podremos visualizar el detalle de la orden que contendrá el precio, la descripción del producto y la cantidad de unidades seleccionadas, la cual podrás aumentar y disminuir a conveniencía.
 
 <p align="center"><img src="https://media.giphy.com/media/0vvksEoBkjTuR3CMc5/giphy.gif" alt="Imagen"/></p>
 
-Luego de ya estar conformes con lo que hayas elegido o para saber cuanto es el total de tu compra podermos darle al icono del Carrito de Compras que nos dirigirá a otra parte de la pagina en la cual tendremos la informacion del precio total y el formulario de pago.
+Luego de verificar el detalle de la orden la página te permitirá agregar mas productos del menú o dirigirte al ícono del carrito de compras. Al darle click al ícono del carrito de compras visualizaremos  la información total para finalizar la orden que contendrá el precio total a pagar y el formulario con los datos de pago.
 
 <p align="center"><img src="https://media.giphy.com/media/gZfY8Al9XINjOEKwNo/giphy.gif" alt="Imagen"/></p>
 
-En caso de que queramos borrar un item tendremos varias opciones el de borrar un item solamente y el vaciar carrito que cosnta enque todos los platos que hayamos mandado al carrito se eliminen de nuestro carrito y comiences a comprar desde 0 nuevamente.
+Cabe aclarar que si desemos desincorporar uno o mas productos seleccionados, podrás eliminar tantos como asi lo requieras, o darle click al botón vaciar el carrito y comenzar una nueva orden presionando el botón "Vamos a comprar!".
 
 <p align="center"><img src="https://media.giphy.com/media/twNQKPPvFpnQplWfQd/giphy.gif" alt="Imagen"/></p>
 
-Luego tendriamos que completar el formulario para poder proceder con la compra
+Para finalizar la transacción deberás completar el formulario con los datos solicitados de manera correcta o de lo contrario te saldrá un aviso.
+
+Al llenar todo los campos de manera correcta podras darle click al botón finalizar compra, la cual generará una alerta con la confirmacion del pedido.
 
 <p align="center"><img src="https://media.giphy.com/media/UmNpqSQ9St9knWVTEx/giphy.gif" alt="Imagen"/></p>
-      
+  
 <p align="center"> Cualquier comentario es bienvenido.</p>
 
 
